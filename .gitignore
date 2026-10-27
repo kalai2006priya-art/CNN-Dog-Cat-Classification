@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datasets and Large Archives
+data/cats_and_dogs_filtered/
+data/*.zip
+data/*.tar.gz
+*.zip
+*.tar.gz
+
+# Trained Model Binaries (weights can be >50MB and exceed GitHub limits)
+models/*.keras
+models/*.h5
+models/*.weights.h5
+
+# Keep the models folder tracked via .gitkeep
+!models/.gitkeep
+!results/.gitkeep
+
+# Environment variables & credentials
+.env
+.env.*
+secrets.json
+
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# VS Code specific files (except base settings if needed)
+.vscode/*
+!.vscode/settings.json
